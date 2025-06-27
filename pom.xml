@@ -8,11 +8,11 @@
         <version>3.5.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.springlearn</groupId>
-    <artifactId>EmailNotificationService</artifactId>
+    <groupId>com.ecommerce</groupId>
+    <artifactId>NotificationService</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>EmailNotificationService</name>
-    <description>EmailNotificationService</description>
+    <name>NotificationService</name>
+    <description>NotificationService</description>
     <url/>
     <licenses>
         <license/>

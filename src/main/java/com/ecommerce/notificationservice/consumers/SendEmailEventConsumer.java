@@ -1,9 +1,9 @@
-package com.springlearn.emailnotificationservice.consumers;
+package com.ecommerce.notificationservice.consumers;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.springlearn.emailnotificationservice.dtos.EmailEventDto;
-import com.springlearn.emailnotificationservice.utils.EmailUtil;
+import com.ecommerce.notificationservice.dtos.EmailEventDto;
+import com.ecommerce.notificationservice.utils.EmailUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.annotation.KafkaListener;

@@ -1,4 +1,4 @@
-package com.springlearn.emailnotificationservice.utils;
+package com.ecommerce.notificationservice.utils;
 
 import javax.mail.Message;
 import javax.mail.Session;
