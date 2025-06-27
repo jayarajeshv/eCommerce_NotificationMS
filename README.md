@@ -1,2 +1,2 @@
-# ECommerce Project_Email Service
-ECommerce Project - Email Service using Kafka
+# ECommerce Project_Notification Service
+ECommerce Project - Notification Service with Kafka Integration
