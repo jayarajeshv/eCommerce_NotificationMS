@@ -3,7 +3,7 @@
 A microservice for handling notifications in an eCommerce platform, built with Spring Boot and integrated with Apache Kafka for event-driven communication.
 
 ---
-
+![Alt text](src/main/resources/draw.io/NotificationMS.jpg)
 ## Overview
 
 This service listens to Kafka topics for order and user events, processes them, and sends notifications (email) to users.
