@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7">
+  <diagram name="Page-1" id="SZ-IuYEoSi2YDAlQrJIp">
+    <mxGraphModel dx="1869" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0ciHXrwv65wuvz5Ztga8-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="90" width="435" x="425" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0ciHXrwv65wuvz5Ztga8-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="90" width="270" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="oFGaxbO7PwY9dENsgou5-28" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="647" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ciHXrwv65wuvz5Ztga8-10" edge="1" parent="1" source="0ciHXrwv65wuvz5Ztga8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="0ciHXrwv65wuvz5Ztga8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0ciHXrwv65wuvz5Ztga8-1" parent="1" style="html=1;whiteSpace=wrap;" value="Kafka Producer" vertex="1">
+          <mxGeometry height="50" width="170" x="85" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="0ciHXrwv65wuvz5Ztga8-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="UserAuth Microservice" vertex="1">
+          <mxGeometry height="30" width="140" x="100" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="0ciHXrwv65wuvz5Ztga8-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="Kafka Topic" vertex="1">
+          <mxGeometry height="30" width="50" x="340" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="0ciHXrwv65wuvz5Ztga8-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="Notification Microservice" vertex="1">
+          <mxGeometry height="30" width="140" x="490" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="0ciHXrwv65wuvz5Ztga8-15" edge="1" parent="1" source="0ciHXrwv65wuvz5Ztga8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="0ciHXrwv65wuvz5Ztga8-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0ciHXrwv65wuvz5Ztga8-2" parent="1" style="html=1;whiteSpace=wrap;" value="Kafka Consumer" vertex="1">
+          <mxGeometry height="50" width="160" x="480" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="0ciHXrwv65wuvz5Ztga8-16" parent="1" style="html=1;whiteSpace=wrap;" value="SMTP Server" vertex="1">
+          <mxGeometry height="50" width="160" x="940" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="0ciHXrwv65wuvz5Ztga8-17" edge="1" parent="1" source="0ciHXrwv65wuvz5Ztga8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0ciHXrwv65wuvz5Ztga8-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0ciHXrwv65wuvz5Ztga8-14" parent="1" style="html=1;whiteSpace=wrap;" value="EmailUtil" vertex="1">
+          <mxGeometry height="50" width="160" x="680" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
